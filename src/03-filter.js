@@ -33,7 +33,7 @@ function getSongsOverThreeMinutes(songs) {
  * @returns {Object[]} An array of objects.
  */
 function getTitleTracks(songs) {
-  return titleTracks = songs.filter((song) => song.title === song.album)
+  return songs.filter((song) => song.title === song.album)
   
 }
 
